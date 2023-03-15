@@ -1,7 +1,6 @@
 const americanOnly = require('./american-only.js');
 const americanToBritishSpelling = require('./american-to-british-spelling.js');
 const britishOnly = require('./british-only.js');
-const flipSpelling = Object.fromEntries(Object.entries(americanToBritishSpelling).map(([k, v]) => [v, k]));
 
 // let result = text.replace(/blue/g, "red");
 
